@@ -1,0 +1,8 @@
+*.h
+*.exe
+*.dll
+src/bin/*
+src/python.zip
+src/pkg/*
+goback.egg-info
+src/lib
