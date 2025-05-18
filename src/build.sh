@@ -1,5 +1,6 @@
 #!/bin/bash
 cd -- "$(dirname -- "$0")"
+echo -e "\e[32m[GOBACK BUILDER]\e[0m $(go version)"
 
 if [ -z "$LHOST" ];then echo "MISSING LHOST !" ;exit;fi
 if [ -z "$LPORT" ];then
