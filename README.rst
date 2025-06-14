@@ -14,7 +14,7 @@ Getting started
 
 .. code-block:: bash
 
-    sudo pipx install git+https://gitlab.com/charles.gargasson/goback.git@main --global
+    sudo pipx install git+https://github.com/charlesgargasson/goback.git@main --global
     # sudo pipx upgrade goback --global
     # sudo pipx uninstall goback --global
 
