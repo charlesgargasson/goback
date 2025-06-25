@@ -21,7 +21,7 @@ parser.add_argument('--debug', action='store_true', help='Debug')
 parser.add_argument('--nokeepalive', action='store_true', help='Disable keepalive')
 args = parser.parse_args()
 
-repo = 'https://gitlab.com/charles.gargasson/goback'
+repo = 'https://github.com/charlesgargasson/goback'
 homefolder = str(Path.home())
 repo_path = f'{homefolder}/goback'
 
